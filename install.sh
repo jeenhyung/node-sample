@@ -19,3 +19,6 @@ node -e "console.log('Running Node.js ' + process.version)"
 # install pm2 module globaly
 npm install -g pm2
 pm2 update
+
+cd ~/node
+/home/ec2-user/.nvm/versions/node/v6.9.1/lib/node_modules/npm/bin/npm-cli.js install
