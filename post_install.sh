@@ -3,7 +3,8 @@
 set -e
 
 cd ~/node
-npm install
+#npm install
+/home/ec2-user/.nvm/versions/node/v6.9.1/lib/node_modules/npm/bin/npm-cli.js install
 
 # setup NODE_ENV
 if [ ! -z "$DEPLOYMENT_GROUP_NAME" ]; then
