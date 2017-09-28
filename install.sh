@@ -20,5 +20,5 @@ node -e "console.log('Running Node.js ' + process.version)"
 npm install -g pm2
 pm2 update
 
-cd ~/node
-/home/ec2-user/.nvm/versions/node/v6.9.1/lib/node_modules/npm/bin/npm-cli.js install
+# cd ~/node
+# /home/ec2-user/.nvm/versions/node/v6.9.1/lib/node_modules/npm/bin/npm-cli.js install

@@ -2,9 +2,9 @@
 #!/usr/bin/env bash
 set -e
 
-# cd ~/node
+cd ~/node
 #npm install
-# /home/ec2-user/.nvm/versions/node/v6.9.1/lib/node_modules/npm/bin/npm-cli.js install
+/home/ec2-user/.nvm/versions/node/v6.9.1/lib/node_modules/npm/bin/npm-cli.js install
 
 # setup NODE_ENV
 if [ ! -z "$DEPLOYMENT_GROUP_NAME" ]; then
