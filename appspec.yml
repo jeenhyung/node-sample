@@ -5,11 +5,11 @@ files:
     destination: /home/ec2-user/node
 permissions:
   - object: /home/ec2-user
-    owner: ec2-user
-    group: ec2-user
-    type:
-      - directory
-      - file
+    # owner: ec2-user
+    # group: ec2-user
+    # type:
+    #   - directory
+    #   - file
 hooks:
   BeforeInstall:
     - location: install.sh
