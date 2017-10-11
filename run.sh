@@ -4,5 +4,5 @@ if [ ! -z "$DEPLOYMENT_GROUP_NAME" ]; then
 fi
 
 cd ~/node
-/usr/local/bin/pm2 start src/app.js -n sample-node -i 0
-/usr/local/bin/node src/app.js
+/usr/bin/pm2 start src/app.js -n sample-node -i 0
+/usr/bin/node src/app.js

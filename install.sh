@@ -8,6 +8,10 @@ yum -y update
 yum -y install default-jre ImageMagick
 yum -y install gcc-c++ make
 yum -y install openssl-devel
+
+curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -
+yum -y install nodejs
+
 # # add nodejs to yum
 # #curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -
 # #yum -y install nodejs #default-jre ImageMagick
@@ -23,9 +27,9 @@ yum -y install openssl-devel
 # # ln -s ~/.nvm/versions/node/v6.9.1/bin/npm /usr/local/bin/pm2
 # # ln -s ~/.nvm/versions/node/v6.9.1/bin/npm /usr/bin/pm2
 
-# # install pm2 module globaly
-# npm install -g pm2
-# pm2 update
+# install pm2 module globaly
+npm install -g pm2
+pm2 update
 
 # cd ~/node
 # npm install
