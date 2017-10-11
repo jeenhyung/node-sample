@@ -8,7 +8,6 @@ nvm install 6.9.1
 node -e "console.log('Running Node.js ' + process.version)"
 
 cd ~
-chmod -R 755 ./node
 
 cd ~/node
 npm install --save pm2
@@ -31,8 +30,8 @@ if [ ! -z "$DEPLOYMENT_GROUP_NAME" ]; then
     fi
 fi
 
-# add node to startup
-hasRc=`grep "su -l $USER" /etc/rc.d/rc.local | cat`
-if [ -z "$hasRc" ]; then
-    sudo sh -c "echo 'su -l $USER -c \"cd ~/node;sh ./run.sh\"' >> /etc/rc.d/rc.local"
-fi
+# # add node to startup
+# hasRc=`grep "su -l $USER" /etc/rc.d/rc.local | cat`
+# if [ -z "$hasRc" ]; then
+#     sudo sh -c "echo 'su -l $USER -c \"cd ~/node;sh ./run.sh\"' >> /etc/rc.d/rc.local"
+# fi
