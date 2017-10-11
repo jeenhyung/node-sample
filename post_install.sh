@@ -17,7 +17,7 @@
 # npm install
 
 wget http://nodejs.org/dist/v6.9.1/node-v6.9.1.tar.gz
-tar xzvf node-v4.4.7.tar.gz
+tar xzvf node-v6.9.1.tar.gz
 cd node-v6.9.1
 ./configure
 make && make install
