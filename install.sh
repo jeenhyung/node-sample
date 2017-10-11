@@ -26,5 +26,5 @@ node -e "console.log('Running Node.js ' + process.version)"
 npm install -g pm2
 pm2 update
 
-cd ~/node
+cd /node
 npm install
