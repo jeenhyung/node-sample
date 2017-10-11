@@ -5,4 +5,3 @@ fi
 
 cd ~/node
 /usr/bin/pm2 start src/app.js -n sample-node -i 0
-/usr/bin/node src/app.js
