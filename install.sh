@@ -15,12 +15,12 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | b
 nvm install 6.9.1
 node -e "console.log('Running Node.js ' + process.version)"
 
-ln -s ~/.nvm/versions/node/v6.9.1/bin/node /usr/local/bin/node
-ln -s ~/.nvm/versions/node/v6.9.1/bin/node /usr/bin/node
-ln -s ~/.nvm/versions/node/v6.9.1/bin/pm2 /usr/local/bin/pm2
-ln -s ~/.nvm/versions/node/v6.9.1/bin/pm2 /usr/bin/pm2
-ln -s ~/.nvm/versions/node/v6.9.1/bin/npm /usr/local/bin/pm2
-ln -s ~/.nvm/versions/node/v6.9.1/bin/npm /usr/bin/pm2
+# ln -s ~/.nvm/versions/node/v6.9.1/bin/node /usr/local/bin/node
+# ln -s ~/.nvm/versions/node/v6.9.1/bin/node /usr/bin/node
+# ln -s ~/.nvm/versions/node/v6.9.1/bin/pm2 /usr/local/bin/pm2
+# ln -s ~/.nvm/versions/node/v6.9.1/bin/pm2 /usr/bin/pm2
+# ln -s ~/.nvm/versions/node/v6.9.1/bin/npm /usr/local/bin/pm2
+# ln -s ~/.nvm/versions/node/v6.9.1/bin/npm /usr/bin/pm2
 
 # install pm2 module globaly
 npm install -g pm2
