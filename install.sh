@@ -15,7 +15,7 @@ yum -y install default-jre ImageMagick
 # nvm install 6.9.1
 # node -e "console.log('Running Node.js ' + process.version)"
 
-ln -s ~/.nvm/versions/node/v6.9.1/bin/node /usr/local/bin/node
+# # ln -s ~/.nvm/versions/node/v6.9.1/bin/node /usr/local/bin/node
 # # ln -s ~/.nvm/versions/node/v6.9.1/bin/node /usr/bin/node
 # # ln -s ~/.nvm/versions/node/v6.9.1/bin/pm2 /usr/local/bin/pm2
 # # ln -s ~/.nvm/versions/node/v6.9.1/bin/pm2 /usr/bin/pm2
