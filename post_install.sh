@@ -7,6 +7,9 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | b
 nvm install 6.9.1
 node -e "console.log('Running Node.js ' + process.version)"
 
+cd ~
+chmod -R 755 ./node
+
 cd ~/node
 npm install --save pm2
 # install pm2 module globaly
